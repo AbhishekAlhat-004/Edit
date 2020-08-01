@@ -1,0 +1,99 @@
+*,html,body
+{
+
+    margin: 0px;
+    padding: 0px;
+    
+
+}
+
+
+header
+{
+    background-color: black;
+    background-image: url("mic3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position:center;
+    
+    
+    
+
+
+}
+
+
+
+
+
+
+
+.box
+{
+    position: relative;
+    max-width: 580px;
+    padding:20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    overflow: hidden;
+    color:#000;
+    left:410px;
+    top:300px;
+    
+}
+
+.box h2
+{
+    position:relative;
+    margin:0 0 10px;
+    padding:0;
+    z-index:2;
+    color:white;
+    font-size:20px;
+   
+    
+}
+
+.box h3
+{
+    color: white;
+    font-size:15px;
+   
+    
+}
+
+.box p
+{
+    color: white;
+   
+}
+
+.image
+{
+    position: relative;
+    left:885px;
+    color: white;
+    text-align: center;
+    bottom: 50px;
+  
+   
+}
+
+.image2
+{   
+
+    position: relative;
+    left:885px;
+    bottom:50px;
+    color: white;
+    text-align: center;
+    
+    
+
+}
+
+.table
+{
+    position: relative;
+    top:50px;
+}

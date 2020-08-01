@@ -1,0 +1,39 @@
+body, html {
+  height: 100%;
+}
+.bg {
+  /* The image used */
+  background-image: url("mic.jpg");
+
+  /* Half height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body {
+  background: url("mic.jpg") fixed;
+ background-size: cover;
+}
+
+*[role="form"] {
+ max-width: 530px;
+ padding: 15px;
+ margin: 0 auto;
+ border-radius: 0.3em;
+ background-color: #f2f2f2;
+}
+
+*[role="form"] h2 { 
+ font-family: 'Open Sans' , sans-serif;
+ font-size: 40px;
+ font-weight: 600;
+ color: #000000;
+ margin-top: 5%;
+ text-align: center;
+ text-transform: uppercase;
+ letter-spacing: 4px;
+}
